@@ -1,0 +1,88 @@
+[[package]]
+name = "fastkml"
+version = "0.12"
+description = "Fast KML processing in python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+pygeoif = "<1.0"
+python-dateutil = "*"
+
+[[package]]
+name = "haversine"
+version = "2.8.0"
+description = "Calculate the distance between 2 points on Earth."
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
+name = "hereutil"
+version = "0.1.3"
+description = "Small utility to manage importing/sourcing python from under here()"
+category = "main"
+optional = false
+python-versions = ">=3.7,<4.0"
+
+[package.dependencies]
+pyprojroot = ">=0.2.0,<0.3.0"
+
+[[package]]
+name = "pygeoif"
+version = "0.7"
+description = "A basic implementation of the __geo_interface__"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pyprojroot"
+version = "0.2.0"
+description = "Find project root paths and return relative project files"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "python-dateutil"
+version = "2.8.2"
+description = "Extensions to the standard Python datetime module"
+category = "main"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
+
+[package.dependencies]
+six = ">=1.5"
+
+[[package]]
+name = "simplekml"
+version = "1.3.6"
+description = "A Simple KML creator"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "six"
+version = "1.16.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "eff22d1bea4a224ab592c9eff43ea007d71db60c1c732dca1c161542b3819dbc"
+
+[metadata.files]
+fastkml = []
+haversine = []
+hereutil = []
+pygeoif = []
+pyprojroot = []
+python-dateutil = []
+simplekml = []
+six = []
